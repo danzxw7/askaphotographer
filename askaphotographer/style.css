@@ -1,0 +1,226 @@
+/*fundo*/
+body{
+    background-color: rgb(224, 226, 223);
+text-align: center;
+font-family: Arial
+}
+/*título, subtítulo, parágrafo e imagem*/
+h1{
+    color:rgb(0, 0, 0);
+}
+
+h2{
+    color:rgb(0, 0, 0);
+
+}
+
+h5{
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+p{color: rgb(0, 0, 0); 
+    text-align:justify;
+}
+
+img{
+    max-width: 400px;
+    height: auto;
+    border: 5px solid black;
+}
+
+button{
+   padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+h3{
+    text-align: left;
+}
+ul{
+    text-align: left;
+}
+
+nav{
+    background-color: rgb(161, 165, 158) ;
+    padding: 15px;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left:0;
+    text-align: center;
+}
+nav ul{
+    list-style: none ;
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 15px;
+    offset-distance: 40px;
+    transition: color 0.3 ease;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* Título */
+.redes h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Links */
+.redes a {
+    text-decoration: none;
+    color:#6c63ff;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* Efeito ao passar o mouse */
+.redes a:hover {
+    background: white;
+    color: #6c63ff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Seção de contato */
+.contato {
+    background: #f5f7fa;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Título */
+.contato h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Formulário */
+.contato form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Inputs */
+.contato input,
+.contato textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+    transition: 0.3s;
+}
+
+/* Efeito ao clicar */
+.contato input:focus,
+.contato textarea:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+/* Campo de mensagem maior */
+.contato textarea {
+    width: 300px;
+    resize: none;
+}
+
+/* Botão */
+.contato button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover do botão */
+.contato button:hover {
+    background: #4b45c7;
+    transform: scale(1.05);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: rgb(161, 165, 158);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+footer a {
+    color: #ccc;
+    margin: 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+table{
+     width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color:#6c63ff;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.galeria img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
